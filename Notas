@@ -1,0 +1,43 @@
+1) En la carpeta en donde vayas a crear la carpeta de la app haces expo init "nombre del proyecto".
+Te va a dar a elegir el template (siempre le pongo blank) y de ahi el nombre de la app (generalmente pongo el mismo que del proyecto, ni idea para que sirve bien). Despues de eso esperas (tarda un rato).
+2) De ahi te va a decir que hagas
+cd nombre del proyecto
+expo start (siempre que vayas a arrancar la app lo usas)
+3) Se va a iniciar el proyecto, va a tardar otro rato (como siempre...). Hay que esperar hasta que aparezca el código QR y que se abra una ventana/pestaña con el Metro Bundler o algo asi, donde podes configurar cosas.
+
+Para estar loggeado:
+ANTES de hacer expo start (y sino cerrala con ctrl+c y abrila despues) tenes que poner
+expo login
+y ahi te va a pedir el usuario y contraseña (tenes que tener una cuenta, si no tenes ni idea como loggearte, antes lo hice por la app creo, y sino por la pag de expo tambien debes poder).
+Si te dice succesfull y que estas logeado ya esta, volve a abrir la app con expo start.
+Nota: cuando se abre el Metro Bundler deberia decirte arriba "LOGGED IN AS 'tuUsuario'"
+
+Para abrir con el celu:
+Importante: tener la app de Expo y loggearte.
+De ahi podes abrir de 2 formas:
+*Con el codigo QR, lo escaneas de la terminal o del Metro Bundler (del metro no me funciona casi nunca pero we)
+*Te deberia aparecer el nombre de la app abajo de "RECENTLY IN DEVELOPMENT" (aca se ponen los proyectos que tengas abiertos en el momento). Si le das click deberia abrirte la app.
+Nota: suele tardar bastante la 1ra vez (obvio, como siempre x2).
+
+En el metro bundler (y abajo a la derecha en la app) aparece 
+"Building JavaScript bundle: % y un porcentaje" mientras la app se esta iniciando (cuando se actualiza pasa lo mismo, o deberia...)
+
+La primera imagen de la app es una pantalla toda blanca con un mensaje en el centro que dice:
+"Open up App.js to start working on your app!" (si, solo eso)
+
+Podes abrir el proyecto en el Visual Code (es livianito, pero cuando queres desarrollar apps le hace honor a su padre, el Visual Studio, porque se clava cada 10/15 mins)
+
+Está bueno instalarle algunos snipets (son como esos atajos de teclados, tipo pones 3 letritas + tab y te aparecen 74859 lineas de código ya escrito, esta copado, asi no tenes que escribir como boluda como venis haciendo, y pausando el video del curso tratando de copiar lo que aparecio en 2segs). Hay muchos snipets, creo que los mejores son los que tienen 5 estrellas, que se yo, por algo llegaron ahi. Igual no le instales demasiados, porque se va a colgar demasiado capaz.
+
+Snipets:
+
+rnc: crea un componente de react-native (cuando creas un nuevo archivo lo usas casi siempre, te aparecen los imports, la clase extends de React.Component y los styles, que es lo basico que necesitas)
+
+
+
+
+
+
+
+
+
